@@ -1,0 +1,10 @@
+memtester-gui (1.0.0-1) unstable; urgency=medium
+
+  * Initial release.
+  * Qt6 GUI for memtester v4.7.1.
+  * iOS-style design with card-based layout.
+  * Chinese interface.
+  * Real-time test progress and results.
+  * Memory settings and advanced options.
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 02 Apr 2026 20:30:00 +0800

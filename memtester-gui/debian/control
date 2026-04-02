@@ -1,0 +1,33 @@
+Source: memtester-gui
+Section: utils
+Priority: optional
+Maintainer: lichenggang <lichenggang@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.16),
+               qt6-base-dev,
+               libqt6widgets6,
+               libqt6gui6,
+               libqt6core6
+Standards-Version: 4.6.0
+Homepage: https://github.com/Zeno-sole/memtester-gui
+Vcs-Browser: https://github.com/Zeno-sole/memtester-gui
+Vcs-Git: https://github.com/Zeno-sole/memtester-gui.git
+Rules-Requires-Root: no
+
+Package: memtester-gui
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         qt6-base-dev
+Description: Qt6 GUI for memtester with iOS-style design
+ Memtester GUI is a Qt6-based graphical interface for the memtester
+ memory testing tool. It provides an iOS-inspired design with
+ card-based layout, real-time test progress, and comprehensive
+ memory testing options.
+ .
+ Features:
+  - Chinese interface with all CLI functionality
+  - Real-time test progress and results display
+  - Memory size and loop count configuration
+  - Advanced options (physical address mapping, unlocked memory)
+  - Test selection with 15 memory test types

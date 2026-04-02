@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=内存测试工具
+Name[en]=Memtester GUI
+Comment=Qt6 GUI for memtester memory testing tool
+Comment[zh_CN]=memtester 内存测试工具的 Qt6 图形界面
+Exec=/usr/bin/memtester-gui
+Icon=memtester-gui
+Type=Application
+Categories=System;Utility;
+Keywords=memory;test;memtester;ram;
+Terminal=false
+StartupNotify=true
